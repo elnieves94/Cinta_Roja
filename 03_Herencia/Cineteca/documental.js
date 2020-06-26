@@ -8,7 +8,7 @@ class Documental extends Largometraje{
         this.planeta = planeta;
     }
     reproducir(){
-        return `Se está reproduciendo ${this.documental}, el creador es ${this.narrador} y estás viendo el planeta ${this.planeta}`
+        return `Se está reproduciendo ${this.documental}, el creador es ${this.narrador} y estás viendo el planeta ${this.planeta}... Que lo disfrutes!`
     }
 };
 

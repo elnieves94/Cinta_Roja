@@ -7,9 +7,9 @@ class Pelicula extends Largometraje{
         this.episodio = episodio;
     }
     repro(){
-        return `se está reproduciendo ${this.pelicula}, episodio ${this.episodio}`
+        return `Se está reproduciendo ${this.pelicula}, episodio ${this.episodio}... Que la disfrutes!`
     }
 };
 
 
-module.exports = {Pelicula, peli};
+module.exports = {Pelicula};

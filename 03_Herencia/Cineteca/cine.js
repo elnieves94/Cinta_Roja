@@ -8,17 +8,17 @@ class StarWars extends Pelicula{
         this.cine = cine;
     }
     reproducirPeli(){
-        return this.repro();
+        return `${this.repro()} Solo en ${this.cine}.`;
     }
 }
 
 class Cosmico extends Documental{
-    constructor(nombre, planeta, cine){
+    constructor(nombre, planeta, cineteca){
         super(nombre, planeta);
-        this.cine = cine;
+        this.cineteca = cineteca;
     }
     reproducirDocu(){
-        return this.reproducir();
+        return `${this.reproducir()} Solo en ${this.cineteca}.`;
     }
 }
 
