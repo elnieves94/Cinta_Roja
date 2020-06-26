@@ -6,9 +6,7 @@ class Persona {
         this.peso = peso;
         this.altura = altura;
         this.anio = 2020 - this.edad;
-        this.nombre = this.nombre.toString(0);
-        this.anio = this.anio.toLocaleString();
-        this.sexo = this.sexo.toString(0);
+        this.anio = this.anio.toString();
     };
     imc(){
         return this.peso / (this.altura*this.altura)
@@ -21,7 +19,10 @@ class Persona {
         }
     }
     rfc(){
-        return `${this.nombre.charAt(0,1)}${this.anio.charAt(2)}${this.sexo.charAt(0,1)}`
+        const nom = this.nombre;
+        const annio = this.anio.toString();
+        const sexo = this.sexo;
+        return `${nom.charAt(0,1)}${annio}${sexo}`
     }
 }
 
