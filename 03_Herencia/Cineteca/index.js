@@ -1,4 +1,3 @@
-// const {starwars6, cosmo} = require('./cine');
 const {StarWars, Cosmico} = require('./cine');
 
 const cineonline = new StarWars('pelicula', 'Star Wars', 'Episodio 3', 'Cinemex')

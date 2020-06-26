@@ -11,6 +11,5 @@ class Pelicula extends Largometraje{
     }
 };
 
-const peli = new Pelicula ('pelicula', 'Star Wars', '3');
 
 module.exports = {Pelicula, peli};

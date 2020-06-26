@@ -1,4 +1,4 @@
-const{Pelicula, peli} = require('./pelicula');
+const{Pelicula} = require('./pelicula');
 const {Documental} = require('./documental');
 const {Largometraje} = require('./largometraje')
 
