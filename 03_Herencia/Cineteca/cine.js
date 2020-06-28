@@ -8,7 +8,7 @@ class StarWars extends Pelicula{
         this.cine = cine;
     }
     reproducirPeli(){
-        return `${this.repro()} Solo en ${this.cine}.`;
+        return `${this.repro()} Solo en ${this.cine}`;
     }
 }
 
