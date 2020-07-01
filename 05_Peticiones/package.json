@@ -1,0 +1,15 @@
+{
+  "name": "peticiones",
+  "version": "1.0.0",
+  "description": "Peticiones b42",
+  "main": "index.js",
+  "scripts": {
+    "poke": "node poke.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elnieves94",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
