@@ -7,11 +7,11 @@ function getPlanet(error, response, body){
     const residentes = str.residents;
     for(i=0; i<residentes.length; i++){
         request (residentes[i], getResidents)
-    }
-    function getResidents (error, response, body){
-        const res = JSON.parse(body)
-        const nombre = res.name
-        console.log(nombre);
+        function getResidents (error, response, body){
+            const res = JSON.parse(body)
+            const nombre = res.name
+            console.log(nombre);
+        }
     }
 }
 
